@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.bg-container {
+    background-color: pink;
+}
+
+.profile-section {
+    height: 50px;
+    width: 50px;
+    border: 3px solid #2a2a63;
+    border-radius: 40px;
+    color: #2a2a63;
+
+
+}
+
+@media only screen and (min-width: 768px) {
+    .profile-section {
+        height: 60px;
+        width: 60px;
+    }
+}
+
+.font-icon {
+    font-size: 20px;
+}
+
+@media only screen and (min-width: 768px) {
+    .font-icon {
+        font-size: 30px;
+    }
+}
+
+.profile-heading {
+    font-size: 10px;
+    color: #2a2a63;
+    font-weight: 600;
+}
+
+@media only screen and (min-width: 768px) {
+    .profile-heading {
+        font-size: 10px;
+    }
+}
+
+.name {
+    font-family: "Roboto";
+    font-size: 12px;
+    color: #2a2a63;
+    padding-top: 30px;
+}
+
+@media only screen and (min-width: 527px) {
+    .name {
+        font-size: 20px;
+    }
+}
+
+.profession {
+    font-family: "Roboto";
+    font-size: 12px;
+    color: #2a2a63;
+}
+
+@media only screen and (min-width: 768px) {
+    .profession {
+        font-size: 10px;
+    }
+}
+
+.top-description {
+    font-size: 10px;
+    color: #2a2a63;
+}
+
+@media only screen and (min-width: 768px) {
+    .top-description {
+        font-size: 12px;
+    }
+}
+
+.top-description1 {
+    font-size: 10px;
+    color: #2a2a63;
+    padding-bottom: 20px;
+}
+
+@media only screen and (min-width: 768px) {
+    .top-description1 {
+        font-size: 12px;
+    }
+}
+
+.name-container {
+    height: 200px;
+    border-right: 1px solid #2a2a63;
+    border-bottom: 2px solid #2a2a63;
+    margin-bottom: 30px;
+}
+
+@media only screen and (min-width: 576px) {
+    .name-container {
+        height: 130px;
+    }
+}
+
+.description-container {
+    height: 200px;
+    border-left: 1px solid #2a2a63;
+    border-bottom: 2px solid #2a2a63;
+
+}
+
+@media only screen and (min-width: 576px) {
+    .description-container {
+        height: 130px;
+    }
+}
+
+
+.work-year-experience {
+    font-size: 10px;
+    color: #2a2a63;
+}
+
+.work-space-description {
+    font-size: 8px;
+    color: #2a2a63;
+}
+
+.work-description {
+    font-size: 10px;
+    color: #2a2a63;
+}
+
+.skills-container {
+    height: 200px;
+    border-top: 2px solid #2a2a63;
+    border-right: 1px solid #2a2a63;
+    border-bottom: 2px solid #2a2a63;
+}
+
+@media only screen and (min-width: 527px) {
+    .skills-container {
+        height: 130px;
+    }
+}
+
+.awards-container {
+    height: 200px;
+    border-top: 2px solid #2a2a63;
+    border-left: 1px solid #2a2a63;
+    border-bottom: 2px solid #2a2a63;
+}
+
+@media only screen and (min-width: 527px) {
+    .awards-container {
+        height: 130px;
+    }
+}
+
+.skill {
+    width: 90px;
+    font-size: 10px;
+    color: #2a2a63;
+}
+
+.skill-points {
+    height: 8px;
+    width: 8px;
+    background-color: #2a2a63;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+@media only screen and (min-width: 768px) {
+    .skill-points {
+        height: 10px;
+        width: 10px;
+    }
+}
+
+.skill-points-container {
+    height: 20px;
+    padding: 0px;
+}
+
+.skill-container {
+    height: 20px;
+}
+
+.education-container {
+    border-top: 2px solid #2a2a63;
+    border-bottom: 2px solid #2a2a63;
+}
+
+.each-intrest {
+    width: 100px;
+}
+
+.toggle-color {
+    font-size: 30px;
+    color: #ffa1a9;
+}
+
+.image-container-each {
+    height: 50px;
+    width: 50px;
+    border: 3px solid #2a2a63;
+    border-radius: 40px;
+    color: #2a2a63;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2a2a63;
+}
+
+@media only screen and (min-width: 768px) {
+    .image-container-each {
+        height: 60px;
+        width: 60px;
+    }
+}
