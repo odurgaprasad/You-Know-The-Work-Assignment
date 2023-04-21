@@ -1,9 +1,15 @@
 # You-Know-The-Work-Assignment
 
 
-This is an HTML code that creates a webpage. The webpage includes a header with links to external CSS and JavaScript files. The body of the webpage is divided into three sections using the Bootstrap grid system. The first section is the profile section, which includes the name, profession, and a brief description of the person. The second section is the work section, which includes a list of the person's work experience with brief descriptions. The third section is the skills and awards section, which includes a list of skills with ratings and awards received.
+This is an HTML code for a resume webpage. The webpage includes a container with three rows, each row containing two columns.
 
-The HTML code uses Font Awesome for icons and Bootstrap for layout and styling. It also uses custom CSS from a separate file, style.css, to modify the Bootstrap styles and add additional custom styles.
+The first row includes a profile section with an icon of a user, followed by the name and profession of the individual. The second column in this row contains a brief description of the individual and their address, phone number, and website.
+
+The second row contains a work section with an icon of a briefcase, followed by three different job experiences listed chronologically, starting from the most recent. Each job experience is listed with a year range, followed by the job title, and a brief job description.
+
+The third row includes a skills and awards section with an icon of a clipboard, followed by a list of skills in the first column, and a corresponding set of points in the second column to rate the proficiency of the individual in each skill.
+
+The HTML code uses Bootstrap and Font Awesome for styling and icons. The CSS file "index.css" is linked to this HTML code to customize the webpage's layout and design.
 
 
 
